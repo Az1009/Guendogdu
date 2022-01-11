@@ -8,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
 
   //array für die Bilder
-   images = ['1.jpeg', '2.jpeg', '3.jpeg'];
+   images = ['1.jpeg', 
+   '2.jpeg', 
+   '3.jpeg'];
+
+   // Überschrigten für die Bilder ändern
+   headline = ['Bringen Sie Technik auf das nächste Level!', 
+   'Jeden Tag mehr!',
+    'Grenzenlos'];
    currentImage = 0;
    showImage = true;
 
