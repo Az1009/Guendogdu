@@ -1,1 +1,3 @@
-<img src="assets/img/2.jpeg">
+<div class="imgSlideContainer">
+    <img *ngIf="showImage" class="imgSlide" src="assets/img/{{ images[currentImage] }}">
+</div>
