@@ -1,3 +1,7 @@
 <!-- componente einbinden -->
-<app-menu [darkMode]="false"></app-menu>
-<router-outlet></router-outlet>
+<app-menu [darkMode]="router.url !== '/'"></app-menu>
+
+<!-- scss Eigenschaften nicht auf der Hauptseite anzeigen -->
+<div [class.container]="router.url !=='/'">
+    <router-outlet></router-outlet>
+</div>
