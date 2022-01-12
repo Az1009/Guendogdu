@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ImgSlideContainerComponent } from './img-slide-container/img-slide-container.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImgSlideContainerComponent,
     MenuComponent,
-    ImprintComponent
+    ImprintComponent,
+    DataProtectionComponent
   ],
   imports: [
     BrowserModule,
